@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 01 15:36:14 CDT 2020
+#Wed Apr 01 16:13:34 CDT 2020
 210.set=JAVA_RESOURCE
 282.file=/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/resources.arsc
 14.set=ANDROID_RESOURCE

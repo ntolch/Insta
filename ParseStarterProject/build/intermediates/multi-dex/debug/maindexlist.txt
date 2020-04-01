@@ -229,6 +229,7 @@ com/google/android/gms/internal/zzgh.class
 com/google/firebase/iid/FirebaseInstanceIdService.class
 com/google/android/gms/common/util/zzs.class
 com/google/android/gms/internal/zzhe.class
+com/parse/ParseFile.class
 com/google/ads/mediation/MediationAdRequest.class
 com/google/android/gms/wearable/DataApi$GetFdForAssetResult.class
 com/google/android/gms/games/Games$GetServerAuthCodeResult.class
@@ -591,6 +592,7 @@ android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 com/google/android/gms/gcm/Task.class
 android/support/v4/widget/MaterialProgressDrawable.class
 com/google/android/gms/wearable/DataApi$DataItemResult.class
+com/parse/SaveCallback.class
 android/support/v7/widget/ChildHelper$Callback.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
 android/support/v4/media/MediaMetadataCompat$Builder.class
@@ -808,6 +810,7 @@ android/support/v4/widget/CursorAdapter.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
 com/google/firebase/crash/internal/zzg.class
 com/google/android/gms/internal/zzhz.class
+com/parse/starter/UsersActivity$2.class
 com/google/android/gms/location/places/personalized/zze.class
 com/google/android/gms/tagmanager/TagManagerPreviewActivity.class
 com/google/android/gms/wearable/DataApi$DeleteDataItemsResult.class
