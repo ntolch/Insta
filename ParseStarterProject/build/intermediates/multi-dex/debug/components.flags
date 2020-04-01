@@ -18,6 +18,10 @@
     void attachBaseContext(android.content.Context);
 }
 
+-keep class com.parse.starter.UsersActivity {
+    <init>();
+}
+
 -keep class com.parse.starter.MainActivity {
     <init>();
 }
