@@ -14,6 +14,7 @@ android/support/v4/app/Fragment$SavedState.class
 android/support/annotation/IdRes.class
 com/google/ads/mediation/customevent/CustomEvent.class
 com/google/android/gms/internal/zzir.class
+com/parse/starter/R$menu.class
 com/google/android/gms/ads/internal/client/zzag.class
 com/google/android/gms/ads/internal/overlay/zzd$zzd.class
 com/google/android/gms/internal/zzju.class

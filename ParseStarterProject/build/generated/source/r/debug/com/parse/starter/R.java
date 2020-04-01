@@ -3533,6 +3533,7 @@ containing a value of this type.
         public static final int select_dialog_listview=0x7f0e00ad;
         public static final int selectionDetails=0x7f0e006c;
         public static final int settings=0x7f0e00d7;
+        public static final int share_menu_item=0x7f0e00f5;
         public static final int shortcut=0x7f0e0098;
         public static final int showCustom=0x7f0e0032;
         public static final int showHome=0x7f0e0033;
@@ -3649,6 +3650,9 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f040031;
         public static final int select_dialog_singlechoice_material=0x7f040032;
         public static final int support_simple_spinner_dropdown_item=0x7f040033;
+    }
+    public static final class menu {
+        public static final int share_menu=0x7f0f0000;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
