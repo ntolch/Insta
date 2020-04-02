@@ -393,6 +393,7 @@ com/google/android/gms/games/social/Social$InviteDirection.class
 com/google/android/gms/internal/zzis.class
 com/google/android/gms/common/GoogleApiAvailability.class
 com/google/android/gms/ads/MobileAds$Settings.class
+com/parse/starter/R$drawable.class
 android/support/v7/app/ActionBar$NavigationMode.class
 android/support/v4/app/BaseFragmentActivityHoneycomb.class
 android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator.class
@@ -635,6 +636,7 @@ com/google/android/gms/internal/zzcv.class
 android/support/v7/app/ActionBar$LayoutParams.class
 com/google/android/gms/internal/zzgs.class
 com/google/android/gms/common/internal/zzag.class
+com/parse/starter/UserFeedActivity.class
 android/support/v4/view/ViewCompatICS.class
 com/parse/starter/R$id.class
 com/google/android/gms/analytics/HitBuilders$TransactionBuilder.class
@@ -1034,6 +1036,7 @@ android/support/v7/widget/VectorEnabledTintResources.class
 android/support/v4/os/ResultReceiver.class
 android/support/annotation/UiThread.class
 com/google/android/gms/wallet/firstparty/GetBuyFlowInitializationTokenRequest.class
+com/parse/starter/UsersActivity$3.class
 com/google/android/gms/internal/zzjv$zza.class
 com/google/android/gms/games/event/Event.class
 com/google/android/gms/internal/zzjj.class

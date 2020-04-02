@@ -1,5 +1,6 @@
 package com.parse.starter;
 
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,10 @@ public class UserFeedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_feed);
+
+        Intent intent = getIntent();
+        String activeUsername = intent.getStringExtra("username");
+        setTitle(activeUsername + "'s Feed");
 
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
         ImageView imageView = new ImageView(getApplicationContext());
