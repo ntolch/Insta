@@ -124,6 +124,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.activity_main);
 
+	setTitle("Quarantime");
+
 	constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
 	logoImageView = (ImageView) findViewById(R.id.logoImageView);
     usernameEditText = (EditText) findViewById(R.id.usernameEditText);

@@ -133,6 +133,8 @@ public class UsersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users);
 
+        setTitle("User Feed");
+
         final ListView usersListView = (ListView) findViewById(R.id.usersListView);
         final ArrayList<String> users = new ArrayList<>();
         final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, users);
