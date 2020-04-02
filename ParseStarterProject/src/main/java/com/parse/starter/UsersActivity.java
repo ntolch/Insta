@@ -19,6 +19,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -134,6 +136,15 @@ public class UsersActivity extends AppCompatActivity {
         final ListView usersListView = (ListView) findViewById(R.id.usersListView);
         final ArrayList<String> users = new ArrayList<>();
         final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, users);
+
+        usersListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), UserFeedActivity.class);
+                intent.putExtra("username", users.get(position));
+                startActivity(intent);
+            }
+        });
 
         ParseQuery<ParseUser> userQuery = ParseUser.getQuery();
         userQuery.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());

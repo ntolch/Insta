@@ -84,6 +84,10 @@
         "source": "/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/layout/cast_mini_controller.xml"
     },
     {
+        "merged": "/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_user_feed.xml",
+        "source": "/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/layout/activity_user_feed.xml"
+    },
+    {
         "merged": "/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
         "source": "/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/res/layout/place_autocomplete_progress.xml"
     },
