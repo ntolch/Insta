@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 02 13:49:01 CDT 2020
+#Thu Apr 02 13:59:12 CDT 2020
 210.set=ANDROID_RESOURCE
 282.file=/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
 14.set=ANDROID_RESOURCE

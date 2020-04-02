@@ -393,7 +393,6 @@ com/google/android/gms/games/social/Social$InviteDirection.class
 com/google/android/gms/internal/zzis.class
 com/google/android/gms/common/GoogleApiAvailability.class
 com/google/android/gms/ads/MobileAds$Settings.class
-com/parse/starter/R$drawable.class
 android/support/v7/app/ActionBar$NavigationMode.class
 android/support/v4/app/BaseFragmentActivityHoneycomb.class
 android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator.class
@@ -430,6 +429,7 @@ com/google/android/gms/internal/zzgz.class
 com/google/android/gms/wallet/Wallet$WalletOptions$Builder.class
 com/google/android/gms/internal/zzqu.class
 android/support/v4/view/ViewCompatHC.class
+com/parse/starter/UserFeedActivity$1.class
 com/parse/EventuallyPin.class
 com/google/android/gms/wallet/EnableWalletOptimizationReceiver.class
 android/support/annotation/StyleRes.class

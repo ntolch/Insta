@@ -1,4 +1,4 @@
-#Thu Apr 02 13:49:01 CDT 2020
+#Thu Apr 02 13:59:12 CDT 2020
 base.0=/Users/nikitolch/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.1=classes.dex
 renamed.0=classes2.dex
