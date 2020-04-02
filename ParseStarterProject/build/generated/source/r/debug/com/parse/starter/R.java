@@ -3473,6 +3473,7 @@ containing a value of this type.
         public static final int loading_indicator=0x7f0e00c3;
         public static final int logoImageView=0x7f0e00af;
         public static final int logo_only=0x7f0e0074;
+        public static final int logout_menu_item=0x7f0e00f6;
         public static final int main_container=0x7f0e00b5;
         public static final int match_global_nicknames=0x7f0e005f;
         public static final int match_parent=0x7f0e006d;
@@ -3652,7 +3653,7 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040033;
     }
     public static final class menu {
-        public static final int share_menu=0x7f0f0000;
+        public static final int menu=0x7f0f0000;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

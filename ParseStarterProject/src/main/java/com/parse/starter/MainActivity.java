@@ -50,11 +50,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
     startActivity(intent);
   }
 
-  public void logOut(View view) {
-    ParseUser currentUser = ParseUser.getCurrentUser();
-    currentUser.logOut();
-  }
-
   @Override
   public boolean onKey(View v, int keyCode, KeyEvent event) {
     if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
@@ -77,7 +72,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
       }
     } else if (view.getId() == R.id.constraintLayout || view.getId() == R.id.logoImageView) {
       InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
-      inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+      if (getCurrentFocus() != null) {
+        inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+
+      }
     }
   }
 
@@ -87,7 +85,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
     if (userText.matches("") || passText.matches("")) {
       Toast.makeText(MainActivity.this, "Username and password are required.", Toast.LENGTH_LONG).show();
-      Log.i("Signup", "blanks");
     } else {
       if (signUpEnabled) {
 
@@ -109,9 +106,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         ParseUser.logInInBackground(userText, passText, new LogInCallback() {
           @Override
           public void done(ParseUser parseUser, ParseException e) {
-            if (parseUser != null) {
+            if (parseUser != null && e == null) {
               Log.i("Log in", "Successful");
               viewUsers();
+            } else {
+              Toast.makeText(getApplicationContext(), e.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
             }
           }
         });

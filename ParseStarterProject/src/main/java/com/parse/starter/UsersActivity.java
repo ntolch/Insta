@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -36,6 +37,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UsersActivity extends AppCompatActivity {
+
+    public void logOut() {
+        ParseUser currentUser = ParseUser.getCurrentUser();
+        currentUser.logOut();
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
 
     public void getPhoto() {
         Intent intent = new Intent(Intent.ACTION_PICK, Media.EXTERNAL_CONTENT_URI);
@@ -112,6 +120,8 @@ public class UsersActivity extends AppCompatActivity {
             } else {
                 getPhoto();
             }
+        } else if (item.getItemId() == R.id.logout_menu_item) {
+            logOut();
         }
         return super.onOptionsItemSelected(item);
     }
